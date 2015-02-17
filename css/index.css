@@ -73,14 +73,14 @@ h1 {
 #content-wrap {
 	height: 200px;
 	min-width: 700px;
-	padding-left: 185px;
+	padding-left: 170px;
 }
 
 #description {
 	position: fixed;
 	float: left;
 	width: 50%;
-	min-width: 500px;
+	min-width: 550px;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
@@ -101,8 +101,7 @@ p {
 #mc_embed_signup {
 	float: right;
 	width: 50%;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding: 50px 0px 30px 40px;
 	min-width: 200px;
 }
 
@@ -126,6 +125,7 @@ hr {
 #footer {
 	position: relative;
 	height: 50px;
+	padding-top: 30px;
 }
 
 #footer-content {
