@@ -1,0 +1,140 @@
+/* guides 
+#description {
+	background-color: green;
+}
+
+#mc_embed_signup {
+	background-color: yellow;
+}
+
+guide */
+
+body {
+	font-family: helvetica, sans-serif;
+}
+
+div {
+	display: block;
+}
+
+a {
+	color: black;
+}
+
+a:hover	{
+	color: gray;
+}
+
+h1 {
+	font-size: 4.5em;
+	margin: 0;
+}
+
+/*.dominion {
+	font-family: 'MedievalSharp';
+}*/
+
+.suffix {
+	color: red;
+	font-size: .85em;
+}
+
+.title {
+  	display: inline;
+}
+
+#header-div {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("dominion-box.jpg");
+    margin: 0;
+    width: 100%;
+
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;	
+	color: white;
+	height: 375px;
+	min-width: 950px;
+}
+
+#header-text {
+	margin: auto;
+	position: relative;
+	padding-top: 180px;
+}
+
+#whole-page {
+	min-width: 700px;
+	position: relative;
+}
+
+#content-wrap {
+	height: 200px;
+	min-width: 700px;
+	padding-left: 185px;
+}
+
+#description {
+	position: fixed;
+	float: left;
+	width: 50%;
+	min-width: 500px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#description h3 {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+p {
+	line-height: 20px;
+}
+
+#mc_embed_signup {
+	float: right;
+	width: 50%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	min-width: 200px;
+}
+
+#mc_embed_signup label {
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+hr {
+	width: 60%;
+}
+
+.mail {
+	text-decoration: underline;
+}
+
+.spacing {
+	clear: both;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+}
+
+#footer-content {
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	bottom: 5;
+	font-size: 11;
+	font-family: arial;
+	min-width: 950px;
+
+}
