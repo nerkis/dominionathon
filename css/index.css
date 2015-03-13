@@ -14,7 +14,7 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 1.4%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -40,17 +40,12 @@
 	width: 74.6%;
 }
 .span_2_of_4 {
-	width: 49.2%;
+	width: 48%;
 }
 .span_1_of_4 {
 	width: 23.8%;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-}
 
 
 
@@ -81,6 +76,7 @@ h3 {
 
 
 
+
 /*  HEADER  */
 h1 {
 	font-size: 4.5em;
@@ -102,6 +98,7 @@ h1 {
 	color: white;
 
 	margin-top: 180px;
+	max-width: 1200px;
 }
 
 #header {
@@ -121,12 +118,26 @@ h1 {
 
 /*  DETAILS  */
 #description {
+	height: 200px;
+	max-width: 600px;
+}
+
+#description-content {
+	padding-top: 10px;
+	padding-left: 65px;
+	float: right;
 }
 
 
 
+
 /*  MAILCHIMP */
+#signup-wrapper {
+	height: 200px;
+}
+
 #mc_embed_signup {
+	padding-left: 55px;
 }
 
 
@@ -145,100 +156,49 @@ hr {
 	text-align: center;
 	font-size: 11;
 	font-family: arial;
+
+	max-width: 1200px;
 }
 
 
-
-/*div {
-	display: block;
-}
-
-#header-text {
-	position: relative;
-	padding-top: 180px;
-	width: 1060px;
-}
-
-#description {
-	float: left;
-	width: 400px;
-	padding: 50px 0px 30px 40px;
-
-}
-
-p {
-	line-height: 20px;
-}
-
-#mc_embed_signup {
-	float: left;
-	padding: 50px 0px 30px 0px;
-	width: 500px;
-}
-
-.spacing {
-	clear: both;
-}
-
-#footer {
-	position: relative;
-	height: 50px;
-	width: 1000px;
-	padding-top: 15px;
-}
-
-*/
-
-/* 
- * Using the Responsive Grid System
- * http://www.responsivegridsystem.com/ 
- */
-
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { 
-	content:""; display:table; 
-}
-
-.group:after { 
-	clear:both;
-}
-
-.group { 
-	zoom:1; /* For IE 6/7 */ 
-}
-
-/*  GRID OF FOUR  */
-.span_4_of_4 {
-	width: 100%;
-}
-.span_3_of_4 {
-	width: 74.6%;
-}
-.span_2_of_4 {
-	width: 49.2%;
-}
-.span_1_of_4 {
-	width: 23.8%;
-}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+
+	#header-div {  margin-top: 140px;}
+	#header {  height: 275px;}
+	h1 {  font-size: 3.25em;}
+	.suffix {  font-size: .75em;}
+
+	#description {  height: 150px;}
+	#description-content {  float: none; }
+	#signup-wrapper {  height: 150px; }
+}
+
+/* iPhone 6 (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+
+	#header-div {  margin-top: 100px;}
+	#header {  height: 375px; width: 100%}
+	h1 {  font-size: 6em;}
+	.suffix {  font-size: .9em;}
+	#subtitle { font-size: 12pt;}
+
+	h3 { font-size: 2em;}
+
+	p {line-height: 40px;}
+
+	#description {  height: 400px; padding-left: 50px;}
+	#description-content {  width: 800px; float: none; font-size: 2.5em;}
+
+	#signup-wrapper {  height: 400px; padding-left: 50px;}
+	#mc_embed_signup { font-size: 2.5em; }
+	#mc_embed_signup .button {font-size:24px; height: 50px; line-height: 40px;}
+
+	#footer { height: 100px; font-size: 1.5em;}
 }
