@@ -95,6 +95,10 @@ h1 {
 .highlight {
 }
 
+.current-page {
+	color: grey;
+}
+
 #subtitle {
   	display: inline;
   	font-size: 1.5em;
@@ -158,7 +162,7 @@ li a:hover {
 
 
 /*  DETAILS  */
-#description, #where{
+#description, #where, #content{
 	height: 250px;
 }
 
@@ -182,6 +186,10 @@ li a:hover {
 
 
 /*  FOOTER  */
+hr {
+	width: 60%;
+}
+
 .mail {
 	text-decoration: underline;
 }
