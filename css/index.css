@@ -137,7 +137,6 @@ h1 {
 }
 
 #menu-wrapper {
-
 	width: 65%;
 	margin: 0 auto;
 	padding-top: 5px;
@@ -181,10 +180,6 @@ li a:hover {
 
 }
 
-#description-content {
-	float: none;
-}
-
 #when-content, #where-content {
 	width: 80%;
 	margin: 0 auto;
@@ -209,6 +204,13 @@ hr {
 }
 
 
+
+
+#faq-content {
+	margin-left: 10%;
+}
+
+
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
@@ -218,11 +220,11 @@ hr {
 	#header {  height: 275px;}
 	h1 {  font-size: 3.25em;}
 	.suffix {  font-size: .75em;}
+	#subtitle { font-size: 12pt;}
+
 
 	#description {  height: 150px;}
-	#description-content {  float: none; }
-	#when-content, #where-content { width: 100%;}
-	#signup-wrapper {  height: 150px; }
+	#when-content, #where-content, #register-content { width: 100%;}
 }
 
 /* iPhone 6 (portrait) ----------- */
@@ -239,15 +241,9 @@ hr {
 
 	h3 { font-size: 2em;}
 
-	p {line-height: 40px;}
+	#description-content, #when-content, #where-content, #register-content { width: 100%;}
 
-	#description {  height: 400px; padding-left: 50px;}
-	#description-content {  width: 800px; float: none; font-size: 2.5em;}
-	#when-content, #where-content { width: 100%;}
-
-	#signup-wrapper {  height: 400px; padding-left: 50px;}
-	#mc_embed_signup { font-size: 2.5em; }
-	#mc_embed_signup .button {font-size:24px; height: 50px; line-height: 40px;}
+	
 
 	#footer { height: 100px; font-size: 1.5em;}
 }
