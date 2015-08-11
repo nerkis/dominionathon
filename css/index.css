@@ -138,8 +138,17 @@ h1 {
 
 #menu-wrapper {
 	width: 65%;
+	min-width: 690px;
 	margin: 0 auto;
 	padding-top: 5px;
+}
+
+#facebook-logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 25px;
+    width: 25px;
 }
 
 li {
@@ -158,6 +167,15 @@ li a {
 
 li a:hover {
 	color: grey;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
 }
 
 
@@ -206,7 +224,7 @@ hr {
 
 
 
-#faq-content, #register-pg-content {
+#faq-content, #register-pg-content, #schedule-content {
 	margin-left: 10%;
 }
 
